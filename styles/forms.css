@@ -185,3 +185,7 @@ form {
 .image-container input[type="radio"]:not(:checked) + label{
     filter: blur(1px) brightness(0.5); /* Adiciona um efeito de desfoque e reduz o brilho */
 }
+
+#contacts .form-group input[type="text"] {
+    margin-bottom: 16px;
+}
