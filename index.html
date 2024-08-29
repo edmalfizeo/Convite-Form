@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="styles/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Leckerli+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Leckerli+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -81,8 +82,151 @@
                         </div>
                     </section>
                     
-                    <section class="form-section">
-                        <!-- Seção de formulário (Form 2) -->
+
+
+                    <section class="form-section-2">
+                        <div id="frame-form2">
+                            <img src="assets/icons/paintbrush-vertical.svg" alt="little calendar">
+                            <h3>Personalização</h3>
+                        </div>
+
+                        <div class="colors-container">
+                            <h1 id="color-title-h1">Cor principal</h1>
+                            <div class="grid-colors">
+                                <label>
+                                    <input type="radio" name="color" value="azul">
+                                    <div class="color-circle" style="background-color: #659EFF;"></div>
+                                </label>
+                                <label>
+                                    <input type="radio" name="color" value="roxo">
+                                    <div class="color-circle" style="background-color: #A259FF;"></div>
+                                </label>
+                                <label>
+                                    <input type="radio" name="color" value="rosa-claro">
+                                    <div class="color-circle" style="background-color: #FF59F9;"></div>
+                                </label>
+                                <label>
+                                    <input type="radio" name="color" value="rosa">
+                                    <div class="color-circle" style="background-color: #FF598B;"></div>
+                                </label>
+                                <label>
+                                    <input type="radio" name="color" value="laranja">
+                                    <div class="color-circle" style="background-color: #FF8B59;"></div>
+                                </label>
+                                <label>
+                                    <input type="radio" name="color" value="amarelo">
+                                    <div class="color-circle" style="background-color: #FFCD59;"></div>
+                                </label>
+                                <label>
+                                    <input type="radio" name="color" value="verde">
+                                    <div class="color-circle" style="background-color: #59FF91;"></div>
+                                </label>
+                                <label>
+                                    <input type="radio" name="color" value="azul-claro">
+                                    <div class="color-circle" style="background-color: #59FFF9;"></div>
+                                </label>
+                                <!-- Adicione mais opções de cores aqui -->
+                            </div>
+                        </div>
+                    
+                        <!-- Grid para as Imagens -->
+                        <div class="image-grid">
+                                <div class="image-container">
+                                    <input type="radio" id="aniversario" name="tema" value="aniversario">
+                                    <label for="aniversario">
+                                        <img src="assets/images/Image.png" alt="Descrição da imagem">
+                                        <div class="image-caption">Aniversário</div>
+                                    </label>
+                                </div>
+                                
+                                <div class="image-container">
+                                    <input type="radio" id="infantil" name="tema" value="Infantil">
+                                    <label for="infantil">
+                                        <img src="assets/images/Image-1.png" alt="Descrição da imagem">
+                                        <div class="image-caption">Infantil</div>
+                                    </label>
+                                </div>
+                                
+                                <div class="image-container">
+                                    <input type="radio" id="formatura" name="tema" value="formatura">
+                                <label for="formatura">
+                                    <img src="assets/images/Image-2.png" alt="Descrição da imagem">
+                                    <div class="image-caption">Formatura</div>
+                                </label>
+                            </div>
+                            
+                            <div class="image-container">
+                                <input type="radio" id="casamento" name="tema" value="casamento">
+                                <label for="casamento">
+                                    <img src="assets/images/Image-3.png" alt="Descrição da imagem">
+                                    <div class="image-caption">Casamento</div>
+                                </label>
+                            </div>
+                            
+                            <div class="image-container">
+                                <input type="radio" id="Chá-de-bebê" name="tema" value="Chá-de-bebê">
+                                <label for="Chá-de-bebê">
+                                    <img src="assets/images/Image-4.png" alt="Descrição da imagem">
+                                    <div class="image-caption">Chá de bebê</div>
+                                </label>
+                            </div>
+                            
+                            <div class="image-container">
+                                <input type="radio" id="cha-de-panela" name="tema" value="cha-de-panela">
+                                <label for="cha-de-panela">
+                                    <img src="assets/images/Image-5.png" alt="Descrição da imagem">
+                                    <div class="image-caption">Chá de Panela</div>
+                                </label>
+                            </div>
+
+                            <div class="image-container">
+                                <input type="radio" id="carnaval" name="tema" value="carnaval">
+                                <label for="carnaval">
+                                    <img src="assets/images/Image-6.png" alt="Descrição da imagem">
+                                    <div class="image-caption">Carnaval</div>
+                                </label>
+                            </div>
+
+                            <div class="image-container">
+                                <input type="radio" id="pascoa" name="tema" value="pascoa">
+                                <label for="pascoa">
+                                    <img src="assets/images/Image-7.png" alt="Descrição da imagem">
+                                    <div class="image-caption">Páscoa</div>
+                                </label>
+                            </div>
+
+                            <div class="image-container">
+                                <input type="radio" id="sao-joao" name="tema" value="sao-joao">
+                                <label for="sao-joao">
+                                    <img src="assets/images/Image-8.png" alt="Descrição da imagem">
+                                    <div class="image-caption">São João</div>
+                                </label>
+                            </div>
+
+                            <div class="image-container">
+                                <input type="radio" id="halloween" name="tema" value="halloween">
+                                <label for="halloween">
+                                    <img src="assets/images/Image-9.png" alt="Descrição da imagem">
+                                    <div class="image-caption">Halloween</div>
+                                </label>
+                            </div>
+
+                            <div class="image-container">
+                                <input type="radio" id="natal" name="tema" value="natal">
+                                <label for="natal">
+                                    <img src="assets/images/Image-10.png" alt="Descrição da imagem">
+                                    <div class="image-caption">Natal</div>
+                                </label>
+                            </div>
+
+                            <div class="image-container">
+                                <input type="radio" id="outro" name="tema" value="outro">
+                                <label for="outro">
+                                    <img src="assets/images/Image-11.png" alt="Descrição da imagem">
+                                    <div class="image-caption">Outro</div>
+                                </label>
+                            </div>
+                        </div>
                     </section>
                     
                     <section class="form-section">
