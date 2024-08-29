@@ -1,0 +1,38 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: var(--text-heading);
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group textarea {
+    padding: 12px; /* Garante que o padding seja consistente */
+    border: 1px solid var(--input-stroke);
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: var(--font-primary);
+    color: var(--text-body);
+    background-color: var(--input-base);
+    height: 100%; /* Garante que os campos de input ocupem toda a altura disponível */
+    box-sizing: border-box; /* Garante que o padding seja considerado no cálculo do tamanho */
+    width: 100%; /* Garante que os campos ocupem toda a largura disponível */
+}
+
+.form-group input[type="file"] {
+    padding: 8px;
+}
+
+/* Estilo para campos de largura total */
+.full-width {
+    grid-column: 1 / -1;
+}
+

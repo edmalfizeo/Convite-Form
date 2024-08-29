@@ -1,0 +1,48 @@
+/* Ajustes no Container dos Botões de Rádio */
+.radio-group {
+    display: flex;
+}
+
+.toggle-buttons {
+    display: flex;
+    gap: 10px;
+    border: 1px solid var(--input-stroke);
+    border-radius: 8px;
+    padding: 4px;
+    background-color: var(--input-base);
+    align-items: center;
+}
+
+.toggle-buttons input[type="radio"] {
+    display: none; /* Esconde os botões de rádio */
+}
+
+.toggle-buttons label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: var(--font-primary);
+    font-size: 16px;
+    color: var(--text-body);
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    margin-top: 8px;
+    gap: 15px;
+}
+
+/* Estilo para o Botão Selecionado */
+.toggle-buttons input[type="radio"]:checked + label {
+    background-color: var(--highlight-color);
+    color: #FFFFFF;
+    border-color: var(--highlight-color);
+    border: 2px solid var(--highlight-color);
+}
+
+.toggle-buttons input[type="radio"]:not(:checked) + label img {
+    filter: blur(1px) brightness(0.5); 
+}
+

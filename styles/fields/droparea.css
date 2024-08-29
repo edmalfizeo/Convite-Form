@@ -1,0 +1,18 @@
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--input-stroke);
+    background-color: var(--input-base);
+    color: var(--text-body);
+    font-size: 16px;
+    font-family: var(--font-body);
+    width: 100%;
+    box-sizing: border-box;
+    appearance: none; /* Remove o estilo padrão do dropdown */
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+    border-color: var(--highlight-color);
+}

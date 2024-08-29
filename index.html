@@ -30,7 +30,51 @@
                     <!-- Formulário e outros conteúdos da seção principal -->
                 
                     <section class="form-section">
-                        <!-- Seção de formulário (Form 1) -->
+                        <div class="grid-container">
+                            <!-- Título do Evento -->
+                            <div class="form-group full-width">
+                                <label for="event-name">Título</label>
+                                <input type="text" id="event-name" name="event-name" placeholder="Nome do evento">
+                            </div>
+                            
+                            <!-- Início e Fim -->
+                            <div class="form-group">
+                                <label for="event-start">Início</label>
+                                <input type="date" id="event-start" name="event-start">
+                            </div>
+                            <div class="form-group">
+                                <label for="event-end">Fim</label>
+                                <input type="date" id="event-end" name="event-end">
+                            </div>
+                            
+                            <!-- Tipo e Local -->
+                            <div class="form-group radio-group">
+                                <label for="event-type">Tipo</label>
+                                <div class="toggle-buttons">
+                                    <input type="radio" id="presencial" name="event-type" value="presencial">
+                                    <label for="presencial">
+                                        <img src="assets/icons/building-2.svg" alt="Presencial Icon" /> Presencial
+                                    </label>
+                                    
+                            
+                                    <input type="radio" id="online" name="event-type" value="online">
+                                    <label for="online">
+                                        <img src="assets/icons/video.svg" alt="Presencial Icon" /> Online
+                                    </label>
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="event-location">Local</label>
+                                <input type="text" id="event-location" name="event-location" placeholder="Link ou endereço">
+                            </div>
+                            
+                            <!-- Descrição -->
+                            <div class="form-group full-width">
+                                <label for="event-description">Descrição</label>
+                                <textarea id="event-description" name="event-description" placeholder="Escreva sobre os detalhes do evento"></textarea>
+                            </div>
+                        </div>
                     </section>
                     
                     <section class="form-section">

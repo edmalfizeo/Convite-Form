@@ -17,6 +17,18 @@ main {
     gap: 20px; /* Espaço entre as seções */
 }
 
+.invite {
+    padding: 80px 135px;
+
+    & h2 {
+        font-family: var(--font-heading);
+        font-weight: bold;
+        font-size: 32px;
+        color: var(--text-heading);
+        margin-bottom: 1rem;
+    }
+}
+
 aside {
     border-radius: 20px;
     background-image: url('../assets/Background.png');
