@@ -7,6 +7,26 @@ form {
     gap: 40px;
 }
 
+.form-section {
+    margin-top: 40px;
+}
+
+#frame-form1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+#frame-form1 img {
+    vertical-align: middle;
+}
+
+#frame-form1 h3 {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    color: var(--text-heading);
+}
 
 .form-section h3 {
     font-size: 24px;
