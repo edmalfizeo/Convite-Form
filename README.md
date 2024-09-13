@@ -7,7 +7,8 @@ Este é um simples formulário de convite criado com **HTML** e **CSS**. O proje
 - 🎨 **Design Simples**: Focado em uma interface clara e objetiva.
 
 ## 📸 Screenshot:
-![image](https://github.com/user-attachments/assets/e7e75cac-4d9e-4ba6-9fc7-43b9ba3b80d2)
+![image](https://github.com/user-attachments/assets/cd161d84-55be-47e9-9a10-242a255c4737)
+
 
 
 ## 🛠 Tecnologias Utilizadas:
